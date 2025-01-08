@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Encoder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>URL Encoder</h1>
+        
+        <label for="baseURL">Enter the Base URL:</label>
+        <input type="text" id="baseURL" placeholder="Enter base URL here" value="https://www.egypttoursportal.com/search-tours/">
+        
+        <label for="urlInput">Enter the URL to encode:</label>
+        <input type="text" id="urlInput" placeholder="Enter URL here">
+        
+        <button onclick="encodeURL()">Convert URL</button>
+        
+        <p>Converted URL:</p>
+        <textarea id="output" readonly></textarea>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
